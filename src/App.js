@@ -1,4 +1,5 @@
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -7,16 +8,17 @@ import Glowbugs from "./pages/Glowbugs";
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Header />
       <main>
-        <Home />
-        <Glowbugs />
-        <JingleBugs />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/glowbugs" element={<Glowbugs />} />
+          <Route path="/jinglebugs" element={<JingleBugs />} />
+        </Routes>
       </main>
-
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 

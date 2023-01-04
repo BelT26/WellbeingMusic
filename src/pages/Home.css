@@ -3,3 +3,8 @@
   height: auto;
   margin: 0;
 }
+
+.logo_row {
+  display: flex;
+  justify-content: center;
+}

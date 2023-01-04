@@ -5,6 +5,7 @@ import NinaImage from "../images/nina.jpg";
 import HomeMainImage from "../images/home_landscape.png";
 import HomeMobileImage from "../images/home_mobile.png";
 import "./Home.css";
+import LogoList from "../components/LogoList";
 
 function Home() {
   return (
@@ -97,6 +98,7 @@ function Home() {
       <Container>
         <Row></Row>
       </Container>
+      <LogoList />
     </div>
   );
 }

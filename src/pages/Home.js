@@ -18,7 +18,7 @@ function Home() {
         />
       </Container>
       <Container>
-        <Row style={{ marginTop: 20, marginBottom: 20, textAlign: "center" }}>
+        <Row style={{ marginTop: 30, marginBottom: 20, textAlign: "center" }}>
           <h1>Educate - Entertain - Include - Inspire.</h1>
         </Row>
 

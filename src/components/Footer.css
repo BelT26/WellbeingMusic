@@ -1,0 +1,24 @@
+.footer_container {
+  color: white;
+  background-color: black;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+.footer_container i {
+  font-size: 2rem;
+}
+
+.contact_link {
+  text-decoration: none;
+  color: white;
+}
+
+.social_icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_right {
+  text-align: right;
+}

@@ -1,8 +1,12 @@
-import { Row, Col, Container, Carousel } from "react-bootstrap";
+import { Row, Col, Container, Image } from "react-bootstrap";
 import "./Glowbugs.css";
 import ReviewsCarousel from "../components/ReviewCarousel";
 import GlowBugsLogo from "../images/glowbug_logo.jpg";
 import StarWars from "../images/GB_star_wars.jpg";
+import SchoolDisco from "../images/GB_school_disco.png";
+import GlowBaby from "../images/gb_baby.jpg";
+import GlowMakeOver from "../images/gb_makeover.jpg";
+import GlowParty from "../images/GB_party2.jpeg";
 import ReviewBackground from "../images/gb_review.PNG";
 
 function Glowbugs() {
@@ -26,38 +30,64 @@ function Glowbugs() {
 
   return (
     <>
-      <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
-        <img
+      <Container style={{ padding: "20px 50px" }}>
+        <Image
+          fluid
           src={StarWars}
           className="glowbugs_main_image"
           alt="children dressed in star wars costumes and waving glow sticks"
         />
       </Container>
-      <Container>
+      <Container style={{ padding: "20px 50px" }}>
         <Row>
           <Col xs={12} className="GB_logo_column">
             <img src={GlowBugsLogo} alt="Glow Bugs logo" height={200} />
           </Col>
         </Row>
         <Row>
-          <Col>
-            <p>
+          <Col xs={12} lg={4}>
+            <p style={{ padding: "20px 0px" }}>
               Glow Bug Parties are the perfect hi-energy, fun-packed, exciting
               birthday entertainment for your child and his/her friends! Based
               in East Surrey, our glow in the dark disco parties guarantee a
               fantastic, stress-free celebration for your 4-8 year old. We also
               provide music activity disco parties for 1-3 year olds as well as
-              school discos and nursery discos - we are regular supplies for
+              school discos and nursery discos - we are regular suppliers for
               various local primary and preschools.
             </p>
+          </Col>
+          <Col xs={12} lg={8} style={{ textAlign: "right" }}>
+            <img
+              src={GlowParty}
+              height={400}
+              alt="Children at a party having fun and wearing glow bands"
+            />
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={12} lg={5}>
+            <img
+              src={GlowMakeOver}
+              height={280}
+              alt="Children having glow in the dark make up applied"
+            />
+          </Col>
+          <Col xs={12} lg={7} style={{ padding: "40px 0px" }}>
             <p>
               Glow Bug Parties feature UV and disco lighting, a professional
               sound system, glowsticks and glow in the dark facepainting. 
               Activities include limbo, bubbles, games with prizes, inflatables
               including guitars and microphones, pom poms, a dress up hat box,
-              dance routines and karaoke. The party can follow a theme if you
-              have one, i.e Harry Potter, Under the Sea, Frozen, Star Wars etc.
+              dance routines and karaoke.
+              <p>
+                The party can follow a theme if you have one, i.e Harry Potter,
+                Under the Sea, Frozen, Star Wars etc.
+              </p>
             </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={12} lg={8} style={{ padding: "40px 0px" }}>
             <p>
               Glow Bug Parties typically last 2 hours, with a pause of say 20
               minutes, about an hour into the party, for tea/cake. It’s very
@@ -72,6 +102,13 @@ function Glowbugs() {
               within a radius of 10 miles of Reigate, Surrey. We also travel
               further afield with a small surcharge for travel time /costs.
             </p>
+          </Col>
+          <Col xs={12} lg={4} style={{ textAlign: "right" }}>
+            <img
+              src={GlowBaby}
+              height={300}
+              alt="baby wearing glow in the dark make up"
+            />
           </Col>
         </Row>
       </Container>

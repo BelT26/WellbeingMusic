@@ -1,5 +1,6 @@
 import { Row, Col, Container, Carousel } from "react-bootstrap";
 import ImageCarousel from "../components/ImageCarousel";
+import ReviewsCarousel from "../components/ReviewCarousel";
 import JingleBugsLogo from "../images/jinglebugs_logo1.jpg";
 import JingleBug from "../images/jinglebug.jpg";
 import BabyParachute from "../images/jb_baby_parachute.jpg";
@@ -8,6 +9,7 @@ import Bubbles from "../images/jb_bubbles.jpg";
 import Scrunchie from "../images/jb_scrunchie.PNG";
 import SeaCloth from "../images/jb_sea_cloth.jpg";
 import IndoorParty from "../images/jinglebugs_indoor_party.jpg";
+import ReviewBackGround from "../images/jb_review.PNG";
 
 function JingleBugs() {
   const CarouselImages = [
@@ -31,23 +33,23 @@ function JingleBugs() {
   const JingleBugsReviews = [
     {
       text: "I have explored many different mother and baby/toddler sessions. It was only Nina’s sessions which I felt brought the magical combination of musicality, developmental awareness, creativity and fun which the boys (and I) so enjoyed. My sons and the other children got so much out of her sessions - both in terms of their musical development, but also in their confidence, ability to listen, pay attention and interact with others.",
-      authour: "Alix, mum to Ewan, 5 and Leon, 2",
+      author: "Alix, mum to Ewan, 5 and Leon, 2",
       id: "ALIXREV",
     },
     {
       text: "Nina brightens up our week, she has been holding weekly classes at Brambly House for nearly 4 years and continues to offer the children variety and new learning experiences. Her positivity is contagious and her planned classes with flexibility to be spontaneous always keeps the children engaged. Every child should have a Nina in their lives to bring joy to music and movement in such an innate way.",
-      authour:
+      author:
         "​Tamsyn Hendry (owner of Brambly House Montessori Nursery, Merstham)",
       id: "TAMSREV",
     },
     {
       text: "The highlight of our week! Nina is an enthusiastic, inspirational and talented musician/preschool teacher. The class is fun and a joy to attend.",
-      authour: "Caroline, mum to Sophie, 4 and Jack, 2",
+      author: "Caroline, mum to Sophie, 4 and Jack, 2",
       id: "CAROREV",
     },
     {
       text: "Our family loves attending the Jingle Bugs sessions. The live music, singing and opportunity to interact with a variety of musical instruments and range of props provides our daughter with real joy and excitement! It is evident that the learning experience is helping her to develop an early love for music. Nina&#39;s passion and musical talent is a real asset to the sessions. Thank you for all the fun we have at JingleBugs!",
-      authour: "Hannah, Amelie&#39;s mum (2 year old)",
+      author: "Hannah, Amelie&#39;s mum (2 year old)",
       id: "HANREV",
     },
   ];
@@ -128,6 +130,10 @@ function JingleBugs() {
           call/text 07956 256721.
         </p>
       </Container>
+      <ReviewsCarousel
+        reviews={JingleBugsReviews}
+        background={ReviewBackGround}
+      />
     </div>
   );
 }

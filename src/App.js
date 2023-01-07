@@ -5,6 +5,9 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import JingleBugs from "./pages/JingleBugs";
 import Glowbugs from "./pages/Glowbugs";
+import WellbeingMusicClub from "./pages/WellbeingMusicClub";
+import Choirs from "./pages/Choirs";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/glowbugs" element={<Glowbugs />} />
           <Route path="/jinglebugs" element={<JingleBugs />} />
+          <Route path="/wellbeingmusicclub" element={<WellbeingMusicClub />} />
+          <Route path="/choirs" element={<Choirs />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
       <Footer />

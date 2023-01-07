@@ -10,9 +10,11 @@ function Footer() {
       <Row>
         <Col xs={12} md={6} lg={4}>
           <ContactLink
-            label="info@wellbeingmusic.co.uk"
-            mailto="mailto:info@wellbeingmusic.co.uk"
-          />
+            email="info@wellbeingmusic.co.uk"
+            subject="Website Enquiry"
+          >
+            info@wellbeingmusic.co.uk
+          </ContactLink>
         </Col>
         <Col xs={12} md={6} lg={4}>
           <div className="social_icons">

@@ -29,6 +29,15 @@ function Header() {
           <LinkContainer to="/glowbugs">
             <Nav.Link>Glowbug Parties</Nav.Link>
           </LinkContainer>
+          <LinkContainer to="/wellbeingmusicclub">
+            <Nav.Link>Wellbeing Music Club</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/choirs">
+            <Nav.Link>Choirs</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/contact">
+            <Nav.Link>Contact</Nav.Link>
+          </LinkContainer>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

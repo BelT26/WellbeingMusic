@@ -183,6 +183,10 @@ function JingleBugs() {
             </p>
           </Col>
         </Row>
+        <ReviewsCarousel
+          reviews={JingleBugsReviews}
+          background={ReviewBackGround}
+        />
         <Row style={{ margin: "20px 0px" }}>
           <Col xs={12} md={6} lg={3}>
             <Image style={{ height: "300px" }} src={Bubbles} alt="" />
@@ -195,10 +199,6 @@ function JingleBugs() {
           </Col>
         </Row>
       </Container>
-      <ReviewsCarousel
-        reviews={JingleBugsReviews}
-        background={ReviewBackGround}
-      />
     </div>
   );
 }

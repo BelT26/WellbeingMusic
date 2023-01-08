@@ -30,7 +30,7 @@ function Glowbugs() {
 
   return (
     <>
-      <Container style={{ padding: "20px 50px" }}>
+      <Container style={{ padding: "0px 60px" }}>
         <Image
           fluid
           src={StarWars}

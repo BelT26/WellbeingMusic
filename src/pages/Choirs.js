@@ -7,7 +7,7 @@ import EveningChoir from "../images/choir_evening.jpg";
 function Choirs() {
   return (
     <>
-      <Container style={{ padding: "0px 50px" }}>
+      <Container style={{ padding: "0px 70px" }}>
         <Row>
           <Col xs={12}>
             <Image

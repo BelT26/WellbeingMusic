@@ -55,7 +55,7 @@ function JingleBugs() {
   ];
   return (
     <div>
-      <Container style={{ padding: "0px 70px" }}>
+      <Container style={{ padding: "0px 150px" }}>
         <Image
           fluid
           src={SeaCloth}
@@ -70,7 +70,7 @@ function JingleBugs() {
             className="JB_logo"
             style={{ textAlign: "center", marginTop: "20px" }}
           >
-            <img src={JingleBugsLogo} height={150} alt="jinglebugs logo" />
+            <img src={JingleBugsLogo} height={120} alt="jinglebugs logo" />
           </Col>
         </Row>
         <Row style={{ marginTop: "20px" }}>

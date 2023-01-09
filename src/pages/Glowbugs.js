@@ -2,7 +2,7 @@ import { Row, Col, Container, Image } from "react-bootstrap";
 import "./Glowbugs.css";
 import ReviewsCarousel from "../components/ReviewCarousel";
 import GlowBugsLogo from "../images/glowbug_logo.jpg";
-import StarWars from "../images/GB_star_wars.jpg";
+import StarWars from "../images/GB_star_wars2.jpg";
 import SchoolDisco from "../images/GB_school_disco.png";
 import GlowBaby from "../images/gb_baby.jpg";
 import GlowMakeOver from "../images/gb_makeover.jpg";
@@ -30,7 +30,7 @@ function Glowbugs() {
 
   return (
     <>
-      <Container style={{ padding: "0px 60px" }}>
+      <Container style={{ padding: "0px 150px" }}>
         <Image
           fluid
           src={StarWars}
@@ -41,7 +41,7 @@ function Glowbugs() {
       <Container style={{ padding: "20px 50px" }}>
         <Row>
           <Col xs={12} className="GB_logo_column">
-            <img src={GlowBugsLogo} alt="Glow Bugs logo" height={200} />
+            <img src={GlowBugsLogo} alt="Glow Bugs logo" height={140} />
           </Col>
         </Row>
         <Row>
@@ -50,16 +50,23 @@ function Glowbugs() {
               Glow Bug Parties are the perfect hi-energy, fun-packed, exciting
               birthday entertainment for your child and his/her friends! Based
               in East Surrey, our glow in the dark disco parties guarantee a
-              fantastic, stress-free celebration for your 4-8 year old. We also
-              provide music activity disco parties for 1-3 year olds as well as
-              school discos and nursery discos - we are regular suppliers for
-              various local primary and preschools.
+              fantastic, stress-free celebration for your 4-8 year old.
+            </p>
+            <p>
+              {" "}
+              We also provide music activity disco parties for 1-3 year olds as
+              well as school discos and nursery discos - we are regular
+              suppliers for various local primary and preschools.
             </p>
           </Col>
-          <Col xs={12} lg={8} style={{ textAlign: "right" }}>
-            <img
+          <Col
+            xs={12}
+            lg={8}
+            style={{ textAlign: "right", padding: "0px 30px 60px" }}
+          >
+            <Image
+              fluid
               src={GlowParty}
-              height={400}
               alt="Children at a party having fun and wearing glow bands"
             />
           </Col>
@@ -79,10 +86,10 @@ function Glowbugs() {
               Activities include limbo, bubbles, games with prizes, inflatables
               including guitars and microphones, pom poms, a dress up hat box,
               dance routines and karaoke.
-              <p>
-                The party can follow a theme if you have one, i.e Harry Potter,
-                Under the Sea, Frozen, Star Wars etc.
-              </p>
+            </p>
+            <p>
+              The party can follow a theme if you have one, i.e Harry Potter,
+              Under the Sea, Frozen, Star Wars etc.
             </p>
           </Col>
         </Row>
@@ -98,9 +105,12 @@ function Glowbugs() {
             </p>
             <p>
               Prices start at £160 for 15 children for a 2 hour party, with
-              additional children at £2 each. Glow Bug parties operate primarily
-              within a radius of 10 miles of Reigate, Surrey. We also travel
-              further afield with a small surcharge for travel time /costs.
+              additional children at £2 each.{" "}
+            </p>
+            <p>
+              Glow Bug parties operate primarily within a radius of 10 miles of
+              Reigate, Surrey. We also travel further afield with a small
+              surcharge for travel time /costs.
             </p>
           </Col>
           <Col xs={12} lg={4} style={{ textAlign: "right" }}>
@@ -111,8 +121,11 @@ function Glowbugs() {
             />
           </Col>
         </Row>
+        <ReviewsCarousel
+          reviews={glowBugReviews}
+          background={ReviewBackground}
+        />
       </Container>
-      <ReviewsCarousel reviews={glowBugReviews} background={ReviewBackground} />
     </>
   );
 }

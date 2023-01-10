@@ -1,8 +1,13 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import "./MainImageContainer.css";
 
 function MainImageContainer({ children }) {
-  return <Container style={{ padding: "20px 150px" }}>{children}</Container>;
+  return (
+    <Container fluid className="main_image_container">
+      {children}
+    </Container>
+  );
 }
 
 export default MainImageContainer;

@@ -1,28 +1,55 @@
 import React from "react";
+import { Row, Col, Container, Image } from "react-bootstrap";
+import { SocialIcon } from "react-social-icons";
 import GlowBugTShirts from "../images/glowbugs_tshirts.jpg";
 
 function Contact() {
   return (
-    <div>
-      <h1>Contact</h1>
-      <p>
-        For all email enquiries contact info@wellbeingmusic.co.uk or call / text
-        07956 256721
-      </p>
-      <p>
-        We sell Jingle Bugs, Blow Bug parties and Wellbeing Music Tshirts as
-        well as music for early years and gift sets!
-      </p>
-      <img
-        src={GlowBugTShirts}
-        alt="two young children wearing Glow Bug TShirts"
-        height={300}
-      />
-      You can also find Wellbeing Music on Instagram
-      https://www.instagram.com/wellbeingmusicuk/ Facebook
-      www.facebook.com/wellbeingmusic and our Youtube channel is
-      https://www.youtube.com/channel/UCvnS8UgGbqD0E3Eo3ZNR7kA
-    </div>
+    <Container>
+      <Row>
+        <Col xs={12} style={{ textAlign: "center" }}>
+          <h1>Contact</h1>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12} lg={6} style={{ padding: "30px" }}>
+          <p>info@wellbeingmusic.co.uk or call / text 07956 256721</p>
+          <p>
+            We sell Jingle Bugs, Blow Bug parties and Wellbeing Music Tshirts as
+            well as music for early years and gift sets!
+          </p>
+          <p>
+            You can also follow Wellbeing Music on Social Media by clicking the
+            icons below.
+          </p>
+          <Row style={{ margin: "20px" }}>
+            <Col xs={12} style={{ textAlign: "center" }}>
+              Instagram{" "}
+              <SocialIcon url="https://www.instagram.com/wellbeingmusicuk/" />
+            </Col>
+          </Row>
+          <Row style={{ margin: "20px" }}>
+            <Col xs={12} style={{ textAlign: "center" }}>
+              Facebook{" "}
+              <SocialIcon url="https://www.facebook.com/wellbeingmusic" />
+            </Col>
+          </Row>
+          <Row style={{ margin: "20px" }}>
+            <Col xs={12} style={{ textAlign: "center" }}>
+              Youtube{" "}
+              <SocialIcon url="https://www.youtube.com/channel/UCvnS8UgGbqD0E3Eo3ZNR7kA" />{" "}
+            </Col>
+          </Row>
+        </Col>
+        <Col xs={12} lg={6} style={{ padding: "30px" }}>
+          <img
+            src={GlowBugTShirts}
+            alt="two young children wearing Glow Bug TShirts"
+            height={500}
+          />
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

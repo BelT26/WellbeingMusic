@@ -1,6 +1,5 @@
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import MainImageContainer from "../components/MainImageContainer";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import NinaImage from "../images/nina.jpg";
 import HomeMainImage from "../images/home_landscape.png";
 import HomeMobileImage from "../images/home_mobile.png";
@@ -10,13 +9,14 @@ import LogoList from "../components/LogoList";
 function Home() {
   return (
     <div>
-      <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
-        <img
+      <MainImageContainer>
+        <Image
+          fluid
           id="home_main"
           src={HomeMainImage}
           alt="group of young girls playing a clapping game to music"
         />
-      </Container>
+      </MainImageContainer>
       <Container>
         <Row style={{ marginTop: 30, marginBottom: 20, textAlign: "center" }}>
           <h1>Educate - Entertain - Include - Inspire.</h1>

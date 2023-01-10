@@ -155,6 +155,7 @@ function JingleBugs() {
             </p>
           </Col>
         </Row>
+        <hr />
         <Row style={{ marginTop: "20px" }}>
           <Col xs={12}>
             <p>

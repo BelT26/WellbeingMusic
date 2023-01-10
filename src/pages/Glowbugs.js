@@ -3,7 +3,7 @@ import "./Glowbugs.css";
 import ReviewsCarousel from "../components/ReviewCarousel";
 import GlowBugsLogo from "../images/glowbug_logo.jpg";
 import StarWars from "../images/GB_star_wars2.jpg";
-import SchoolDisco from "../images/GB_school_disco.png";
+import GlowBug from "../images/glowbug.jpg";
 import GlowBaby from "../images/gb_baby.jpg";
 import GlowMakeOver from "../images/gb_makeover.jpg";
 import GlowParty from "../images/GB_party2.jpeg";
@@ -40,8 +40,8 @@ function Glowbugs() {
       </Container>
       <Container style={{ padding: "20px 50px" }}>
         <Row>
-          <Col xs={12} className="GB_logo_column">
-            <img src={GlowBugsLogo} alt="Glow Bugs logo" height={140} />
+          <Col xs={12} style={{ textAlign: "center" }}>
+            <img src={GlowBugsLogo} height={140} alt="Glow Bugs Logo" />
           </Col>
         </Row>
         <Row>
@@ -52,6 +52,7 @@ function Glowbugs() {
               in East Surrey, our glow in the dark disco parties guarantee a
               fantastic, stress-free celebration for your 4-8 year old.
             </p>
+
             <p>
               {" "}
               We also provide music activity disco parties for 1-3 year olds as
@@ -71,7 +72,8 @@ function Glowbugs() {
             />
           </Col>
         </Row>
-        <Row>
+        <hr />
+        <Row style={{ margin: "20px 0px" }}>
           <Col xs={12} lg={5}>
             <img
               src={GlowMakeOver}
@@ -93,8 +95,9 @@ function Glowbugs() {
             </p>
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} lg={8} style={{ padding: "40px 0px" }}>
+        <hr />
+        <Row style={{ margin: "20px 0px" }}>
+          <Col xs={12} lg={8}>
             <p>
               Glow Bug Parties typically last 2 hours, with a pause of say 20
               minutes, about an hour into the party, for tea/cake. It’s very
@@ -112,6 +115,11 @@ function Glowbugs() {
               Reigate, Surrey. We also travel further afield with a small
               surcharge for travel time /costs.
             </p>
+            <Row>
+              <Col style={{ textAlign: "center" }}>
+                <img src={GlowBug} height={35} />
+              </Col>
+            </Row>
           </Col>
           <Col xs={12} lg={4} style={{ textAlign: "right" }}>
             <img

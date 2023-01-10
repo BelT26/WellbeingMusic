@@ -6,7 +6,12 @@ import GlowBug from "../images/glowbug.jpg";
 
 function Header() {
   return (
-    <Navbar bg="light" variant="light" expand="lg" style={{ border: "none" }}>
+    <Navbar
+      bg="light"
+      variant="light"
+      expand="lg"
+      style={{ marginBottom: "30px" }}
+    >
       <LinkContainer to="/">
         <Navbar.Brand>
           <img

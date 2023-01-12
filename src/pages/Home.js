@@ -19,7 +19,8 @@ function Home() {
       </MainImageContainer>
       <Container>
         <Row style={{ marginTop: 30, marginBottom: 20, textAlign: "center" }}>
-          <h1>Educate - Entertain - Include - Inspire.</h1>
+          <h1>The Good That Music Can Do</h1>
+          <h2>Educate - Entertain - Include - Inspire.</h2>
         </Row>
 
         <Row style={{ marginTop: 30, marginBottom: 20 }}>

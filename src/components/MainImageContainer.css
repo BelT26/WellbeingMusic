@@ -1,3 +1,9 @@
 .main_image_container {
-  padding: 20px 100px;
+  padding: 20px 150px;
+}
+
+@media screen and (max-width: 992px) {
+  .main_image_container {
+    padding: 20px 0;
+  }
 }

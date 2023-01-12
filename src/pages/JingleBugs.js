@@ -1,4 +1,4 @@
-import { Row, Col, Container, Image } from "react-bootstrap";
+import { Row, Col, Container, Image, Ratio } from "react-bootstrap";
 import ReviewsCarousel from "../components/ReviewCarousel";
 import JingleBugsLogo from "../images/jinglebugs_logo1.jpg";
 import JingleBug from "../images/jinglebug.jpg";
@@ -94,8 +94,9 @@ function JingleBugs() {
             </p>
           </Col>
         </Row>
+        <hr />
         <Row style={{ marginTop: "20px" }}>
-          <Col xs={12} lg={5}>
+          <Col xs={12} lg={6} style={{ padding: "30px" }}>
             <p>
               ​Jingle Bugs not only offers a broad spectrum of song-based fun to
               develop a child&#39;s love of and skill for music making, it also
@@ -111,8 +112,18 @@ function JingleBugs() {
               a variety of languages.
             </p>
           </Col>
-          <Col xs={12} lg={7} style={{ padding: "20px" }}>
-            <Image fluid src={BramblyHouse} />
+          <Col xs={12} lg={6} style={{ padding: "30px" }}>
+            <Ratio aspectRatio="16x9">
+              <iframe
+                width="1013"
+                height="570"
+                src="https://www.youtube.com/embed/l7idwawSqIQ"
+                title="Jingle Bugs music classes for babies, toddlers and preschoolers"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </Ratio>
           </Col>
         </Row>
         <hr />
@@ -155,9 +166,9 @@ function JingleBugs() {
             </p>
           </Col>
         </Row>
-        <hr />
+
         <Row style={{ marginTop: "20px" }}>
-          <Col xs={12}>
+          <Col xs={12} lg={6}>
             <p>
               Jingle Bugs is also a regular feature in local nurseries such as
               Daisy Chain, Reigate and Brambly House, Merstham.
@@ -176,6 +187,13 @@ function JingleBugs() {
               To book onto Jingle Bugs at the Woodhatch Community Centre call
               the centre directly on 01737 221030.
             </p>
+          </Col>
+          <Col xs={12} lg={6} style={{ padding: "20px" }}>
+            <Image fluid src={BramblyHouse} />
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={12}>
             <p>
               For more information about Jingle Bugs classes, to book Jingle
               Bugs for your setting or for Jingle Bugs parties, email{" "}

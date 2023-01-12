@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container, Image } from "react-bootstrap";
 import SeatedChoir from "../images/choir_seated.jpg";
-import ParkChoir from "../images/unison_choir.jpg";
+import ParkChoir from "../images/unison_choir2.jpg";
 import EveningChoir from "../images/choir_evening.jpg";
 
 function Choirs() {

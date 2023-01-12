@@ -1,8 +1,9 @@
-import { Row, Col, Container, Image } from "react-bootstrap";
+import { Row, Col, Container, Image, Ratio } from "react-bootstrap";
+import MainImageContainer from "../components/MainImageContainer";
 import "./Glowbugs.css";
 import ReviewsCarousel from "../components/ReviewCarousel";
 import GlowBugsLogo from "../images/glowbug_logo.jpg";
-import StarWars from "../images/GB_star_wars2.jpg";
+import StarWars from "../images/GB_star_wars.jpg";
 import GlowBug from "../images/glowbug.jpg";
 import GlowBaby from "../images/gb_baby.jpg";
 import GlowMakeOver from "../images/gb_makeover.jpg";
@@ -30,16 +31,16 @@ function Glowbugs() {
 
   return (
     <>
-      <Container style={{ padding: "0px 150px" }}>
+      <MainImageContainer>
         <Image
           fluid
           src={StarWars}
           className="glowbugs_main_image"
           alt="children dressed in star wars costumes and waving glow sticks"
         />
-      </Container>
+      </MainImageContainer>
       <Container style={{ padding: "20px 50px" }}>
-        <Row>
+        <Row style={{ marginBottom: "20px" }}>
           <Col xs={12} style={{ textAlign: "center" }}>
             <img src={GlowBugsLogo} height={140} alt="Glow Bugs Logo" />
           </Col>
@@ -65,20 +66,26 @@ function Glowbugs() {
             lg={8}
             style={{ textAlign: "right", padding: "0px 30px 60px" }}
           >
-            <Image
-              fluid
-              src={GlowParty}
-              alt="Children at a party having fun and wearing glow bands"
-            />
+            <Ratio aspectRatio="16x9">
+              <iframe
+                width="1013"
+                height="570"
+                src="https://www.youtube.com/embed/BjqK_NBrmQI"
+                title="Glow Bug Parties in Surrey and surrounding areas"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </Ratio>
           </Col>
         </Row>
         <hr />
         <Row style={{ margin: "20px 0px" }}>
           <Col xs={12} lg={5}>
-            <img
-              src={GlowMakeOver}
-              height={280}
-              alt="Children having glow in the dark make up applied"
+            <Image
+              fluid
+              src={GlowParty}
+              alt="Children at a party having fun and wearing glow bands"
             />
           </Col>
           <Col xs={12} lg={7} style={{ padding: "40px 0px" }}>

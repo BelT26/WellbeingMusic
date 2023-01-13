@@ -1,5 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import Logo from "./Logo";
 import BarchesterHealthcare from "../images/logos/barchester_healthcare.jpg";
 import BramblyHouse from "../images/logos/brambly_house.jpg";
@@ -35,6 +36,11 @@ const companyLogos = [
 function LogoList() {
   return (
     <Container>
+      <Row className="logo_header">
+        <Col xs={12} style={{ textAlign: "center" }}>
+          <h2>Collaborators</h2>
+        </Col>
+      </Row>
       <Row className="logo_row">
         {companyLogos.map((logo) => (
           <Logo imgSrc={logo.image} alt={logo.description} key={logo.key} />

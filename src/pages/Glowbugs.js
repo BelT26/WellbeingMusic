@@ -39,8 +39,8 @@ function Glowbugs() {
           alt="children dressed in star wars costumes and waving glow sticks"
         />
       </MainImageContainer>
-      <Container style={{ padding: "20px 50px" }}>
-        <Row style={{ marginBottom: "20px" }}>
+      <Container style={{ padding: "10px 50px" }}>
+        <Row style={{ marginBottom: "40px" }}>
           <Col xs={12} style={{ textAlign: "center" }}>
             <img src={GlowBugsLogo} height={140} alt="Glow Bugs Logo" />
           </Col>
@@ -81,14 +81,14 @@ function Glowbugs() {
         </Row>
         <hr />
         <Row style={{ margin: "20px 0px" }}>
-          <Col xs={12} lg={5}>
+          <Col xs={12} lg={6} style={{ padding: "20px" }}>
             <Image
               fluid
               src={GlowParty}
               alt="Children at a party having fun and wearing glow bands"
             />
           </Col>
-          <Col xs={12} lg={7} style={{ padding: "40px 0px" }}>
+          <Col xs={12} lg={6} style={{ padding: "40px 20px" }}>
             <p>
               Glow Bug Parties feature UV and disco lighting, a professional
               sound system, glowsticks and glow in the dark facepainting. 
@@ -100,6 +100,11 @@ function Glowbugs() {
               The party can follow a theme if you have one, i.e Harry Potter,
               Under the Sea, Frozen, Star Wars etc.
             </p>
+            <Row>
+              <Col style={{ textAlign: "center", marginTop: "10px" }}>
+                <img src={GlowBug} height={45} />
+              </Col>
+            </Row>
           </Col>
         </Row>
         <hr />
@@ -122,11 +127,6 @@ function Glowbugs() {
               Reigate, Surrey. We also travel further afield with a small
               surcharge for travel time /costs.
             </p>
-            <Row>
-              <Col style={{ textAlign: "center" }}>
-                <img src={GlowBug} height={35} />
-              </Col>
-            </Row>
           </Col>
           <Col xs={12} lg={4} style={{ textAlign: "right" }}>
             <img

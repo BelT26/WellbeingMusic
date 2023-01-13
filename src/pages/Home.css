@@ -8,3 +8,9 @@
   display: flex;
   justify-content: center;
 }
+
+.nina_photo {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}

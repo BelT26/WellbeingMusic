@@ -1,11 +1,11 @@
 import React from "react";
 
-import "./Footer.css";
+import "./ContactLink.css";
 
 const ContactLink = (props) => {
   return (
     <a
-      className="contact_link"
+      style={{ textDecoration: "none", color: props.color }}
       href={`mailto:${props.email}?subject=${props.subject}`}
     >
       {props.children}

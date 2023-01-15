@@ -9,6 +9,7 @@ import IndoorParty from "../images/jb_indoor_party.jpg";
 import OutdoorParty from "../images/jinglebugs_outdoor_party.png";
 import ReviewBackGround from "../images/jb_review.PNG";
 import MainImageContainer from "../components/MainImageContainer";
+import ContactLink from "../components/ContactLink";
 import "./JingleBugs.css";
 
 function JingleBugs() {
@@ -180,8 +181,15 @@ function JingleBugs() {
               6).
             </p>
             <p>
-              To book onto the Wednesday Colman Redland class, get in touch at
-              <a href="info@wellbeingmusic.co.uk">info@wellbeingmusic.co.uk</a>
+              To book onto the Wednesday Colman Redland class, get in touch at{" "}
+              <ContactLink
+                email="info@wellbeingmusic.co.uk"
+                subject="Website Enquiry"
+                color="teal"
+              >
+                info@wellbeingmusic.co.uk
+              </ContactLink>
+              .
             </p>
             <p>
               To book onto Jingle Bugs at the Woodhatch Community Centre call
@@ -197,7 +205,13 @@ function JingleBugs() {
             <p>
               For more information about Jingle Bugs classes, to book Jingle
               Bugs for your setting or for Jingle Bugs parties, email{" "}
-              <a href="info@wellbeingmusic.co.uk">info@wellbeingmusic.co.uk</a>{" "}
+              <ContactLink
+                email="info@wellbeingmusic.co.uk"
+                subject="Website Enquiry"
+                color="teal"
+              >
+                info@wellbeingmusic.co.uk
+              </ContactLink>{" "}
               or call/text 07956 256721.
             </p>
           </Col>

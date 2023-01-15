@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col, Container, Image } from "react-bootstrap";
 import { SocialIcon } from "react-social-icons";
 import GlowBugTShirts from "../images/glowbugs_tshirts.jpg";
+import ContactLink from "../components/ContactLink";
 
 function Contact() {
   return (
@@ -12,12 +13,24 @@ function Contact() {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} lg={6} style={{ padding: "30px" }}>
-          <p>info@wellbeingmusic.co.uk or call / text 07956 256721</p>
+        <Col xs={12} lg={6} style={{ padding: "30px", textAlign: "center" }}>
+          <p>
+            For all email enquiries contact{" "}
+            <ContactLink
+              email="info@wellbeingmusic.co.uk"
+              subject="Website Enquiry"
+              color="teal"
+            >
+              info@wellbeingmusic.co.uk
+            </ContactLink>
+          </p>
+          <p>or call / text 07956 256721</p>
+          <hr></hr>
           <p>
             We sell Jingle Bugs, Blow Bug parties and Wellbeing Music Tshirts as
             well as music for early years and gift sets!
           </p>
+          <hr></hr>
           <p>
             You can also follow Wellbeing Music on Social Media by clicking the
             icons below.

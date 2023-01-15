@@ -3,7 +3,56 @@
   height: auto;
 }
 
-.GB_logo_column {
+.gb_logo_col {
   text-align: center;
   padding: 20px;
+}
+
+.gb_intro {
+  padding: 20px 0px;
+}
+
+.gb_girls_row {
+  margin: 20px 0px;
+}
+
+.gb_girls_img {
+  padding: 20px;
+}
+
+.gb_girls_text {
+  padding: 20px 40px;
+}
+
+.gb_video_col {
+  text-align: right;
+  padding: 0px 30px 60px;
+}
+
+@media screen and (max-width: 992px) {
+  .gb_intro {
+    padding-top: 0;
+  }
+
+  .gb_girls_img {
+    padding: 10px 0;
+  }
+
+  .gb_video_col {
+    text-align: right;
+    padding: 0px 0px 20px;
+  }
+
+  .gb_girls_row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .gb_girls_text {
+    padding: 10px 0px;
+  }
+
+  .gb_logo_col {
+    padding: 0px 0px 20px;
+  }
 }

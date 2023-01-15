@@ -7,3 +7,15 @@
     height: 350px;
   }
 }
+
+@media screen and (max-width: 780px) {
+  .review_background {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .review_background {
+    height: 500px;
+  }
+}

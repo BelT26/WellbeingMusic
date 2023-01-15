@@ -40,14 +40,14 @@ function Glowbugs() {
         />
       </MainImageContainer>
       <Container style={{ padding: "10px 50px" }}>
-        <Row style={{ marginBottom: "40px" }}>
+        <Row style={{ marginBottom: "20px" }}>
           <Col xs={12} style={{ textAlign: "center" }}>
             <img src={GlowBugsLogo} height={140} alt="Glow Bugs Logo" />
           </Col>
         </Row>
         <Row>
           <Col xs={12} lg={4}>
-            <p style={{ padding: "20px 0px" }}>
+            <p className="gb_intro">
               Glow Bug Parties are the perfect hi-energy, fun-packed, exciting
               birthday entertainment for your child and his/her friends! Based
               in East Surrey, our glow in the dark disco parties guarantee a
@@ -61,11 +61,7 @@ function Glowbugs() {
               suppliers for various local primary and preschools.
             </p>
           </Col>
-          <Col
-            xs={12}
-            lg={8}
-            style={{ textAlign: "right", padding: "0px 30px 60px" }}
-          >
+          <Col className="gb_video_col" xs={12} lg={8}>
             <Ratio aspectRatio="16x9">
               <iframe
                 width="1013"
@@ -80,15 +76,15 @@ function Glowbugs() {
           </Col>
         </Row>
         <hr />
-        <Row style={{ margin: "20px 0px" }}>
-          <Col xs={12} lg={6} style={{ padding: "20px" }}>
+        <Row className="gb_girls_row">
+          <Col xs={12} lg={6} className="gb_girls_img">
             <Image
               fluid
               src={GlowParty}
               alt="Children at a party having fun and wearing glow bands"
             />
           </Col>
-          <Col xs={12} lg={6} style={{ padding: "40px 20px" }}>
+          <Col xs={12} lg={6} className="gb_girls_text">
             <p>
               Glow Bug Parties feature UV and disco lighting, a professional
               sound system, glowsticks and glow in the dark facepainting. 
@@ -101,7 +97,7 @@ function Glowbugs() {
               Under the Sea, Frozen, Star Wars etc.
             </p>
             <Row>
-              <Col style={{ textAlign: "center", marginTop: "10px" }}>
+              <Col className="gb_logo_col">
                 <img src={GlowBug} height={45} />
               </Col>
             </Row>
@@ -128,7 +124,7 @@ function Glowbugs() {
               surcharge for travel time /costs.
             </p>
           </Col>
-          <Col xs={12} lg={4} style={{ textAlign: "right" }}>
+          <Col xs={12} lg={4} style={{ textAlign: "center" }}>
             <img
               src={GlowBaby}
               height={300}

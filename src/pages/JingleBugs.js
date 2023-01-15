@@ -1,15 +1,15 @@
 import { Row, Col, Container, Image, Ratio } from "react-bootstrap";
 import ReviewsCarousel from "../components/ReviewCarousel";
 import JingleBugsLogo from "../images/jinglebugs_logo1.jpg";
-import JingleBug from "../images/jinglebug.jpg";
 import BabyParachute from "../images/jb_baby_parachute.jpg";
 import BramblyHouse from "../images/jb_brambly_house.png";
 import Bubbles from "../images/jb_bubbles.jpg";
-import Scrunchie from "../images/jb_scrunchie.PNG";
 import SeaCloth from "../images/jb_sea_cloth.jpg";
 import IndoorParty from "../images/jb_indoor_party.jpg";
 import OutdoorParty from "../images/jinglebugs_outdoor_party.png";
 import ReviewBackGround from "../images/jb_review.PNG";
+import MainImageContainer from "../components/MainImageContainer";
+import "./JingleBugs.css";
 
 function JingleBugs() {
   const CarouselImages = [
@@ -55,13 +55,13 @@ function JingleBugs() {
   ];
   return (
     <div>
-      <Container style={{ padding: "0px 150px" }}>
+      <MainImageContainer>
         <Image
           fluid
           src={SeaCloth}
           alt="group of children waving colourful scarves in a garden with Nina playing the guitar in the background"
         />
-      </Container>
+      </MainImageContainer>
 
       <Container>
         <Row style={{ marginTop: "20px" }}>
@@ -95,7 +95,7 @@ function JingleBugs() {
           </Col>
         </Row>
         <hr />
-        <Row style={{ marginTop: "20px" }}>
+        <Row style={{ marginTop: "20px" }} className="video_row">
           <Col xs={12} lg={6} style={{ padding: "30px" }}>
             <p>
               ​Jingle Bugs not only offers a broad spectrum of song-based fun to
@@ -132,7 +132,7 @@ function JingleBugs() {
             <Image fluid src={OutdoorParty} />
           </Col>
           <Col xs={12} lg={5}>
-            <p>
+            <p className="jb_locations">
               Jingle Bugs is available in a range of settings, as regular
               weekly, fortnightly or once termly sessions in halls, nurseries
               and community centres. Currently classes take place in Reigate
@@ -207,14 +207,23 @@ function JingleBugs() {
           background={ReviewBackGround}
         />
         <Row style={{ margin: "20px 0px" }}>
-          <Col xs={12} md={6} lg={3}>
-            <Image style={{ height: "300px" }} src={Bubbles} alt="" />
+          <Col xs={12} xl={3} className="jb_image">
+            <img
+              src={Bubbles}
+              alt="children in a hall bursting lots of bubbles"
+            />
           </Col>
-          <Col xs={12} md={6} lg={3}>
-            <Image style={{ height: "300px" }} src={IndoorParty} alt="" />
+          <Col xs={12} xl={3} className="jb_image">
+            <img
+              src={IndoorParty}
+              alt="Nina and a small boy playing a guitar, surrounded by children in fancy dress"
+            />
           </Col>
-          <Col xs={12} lg={6}>
-            <Image style={{ height: "300px" }} src={BabyParachute} alt="" />
+          <Col xs={12} xl={6} className="jb_image">
+            <img
+              src={BabyParachute}
+              alt="babies and their mothers sat on the floor under a large colourful parachute"
+            />
           </Col>
         </Row>
       </Container>

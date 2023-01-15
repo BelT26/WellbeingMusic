@@ -57,7 +57,7 @@ function Home() {
               <em>
                 "Hello, my name is Nina and I am the director of Wellbeing
                 Music. I have been a singer for most of my life and have been
-                making music in groups for over a decade."
+                making music in groups for over a decade.
               </em>
             </p>
             <em>
@@ -85,7 +85,7 @@ function Home() {
                 I am the choir director of the Missing People Choir for the
                 national charity, East Surrey-based pop choir, Unison and
                 co-direct the SASH choir for staff and volunteers at East Surrey
-                Hospital."
+                Hospital.
               </em>
             </p>
             <p>

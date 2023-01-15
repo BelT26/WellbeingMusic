@@ -1,0 +1,24 @@
+.jb_image img {
+  height: 300px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .jb_image {
+    padding: 20px;
+  }
+
+  .jb_image img {
+    width: 400px;
+    height: auto;
+  }
+
+  .video_row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .jb_locations {
+    padding-top: 20px;
+  }
+}

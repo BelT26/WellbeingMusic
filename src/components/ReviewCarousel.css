@@ -1,3 +1,9 @@
 .review_background {
   height: 270px;
 }
+
+@media screen and (max-width: 992px) {
+  .review_background {
+    height: 350px;
+  }
+}

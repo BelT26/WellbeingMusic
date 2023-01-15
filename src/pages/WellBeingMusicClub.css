@@ -1,0 +1,36 @@
+.stay_play_img {
+  padding: 0px 20px 40px;
+}
+
+.special_needs_text {
+  padding-top: 30px;
+}
+
+.special_needs_img {
+  padding: 0px 20px 40px;
+}
+
+@media screen and (max-width: 1200px) {
+  .special_needs_img {
+    padding: 40px 0px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .stay_play_img {
+    padding: 10px;
+  }
+
+  .special_needs_choir_row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .special_needs_text {
+    padding-top: 10px;
+  }
+
+  .special_needs_img {
+    padding: 10px;
+  }
+}

@@ -1,28 +1,30 @@
 import React from "react";
 import { Row, Col, Container, Image } from "react-bootstrap";
+import MainImageContainer from "../components/MainImageContainer";
 import Christmas from "../images/WMC_christmas.png";
 import Hospital from "../images/WMC_hospital.jpg";
 import SpecialNeedsChoir from "../images/WMC_special_needs_choir.jpg";
 import StayAndPlay from "../images/WMC_stay_play.png";
+import "./WellBeingMusicClub.css";
 
 function WellbeingMusicClub() {
   return (
     <>
-      <Container style={{ padding: "0px 150px" }}>
+      <MainImageContainer>
         <Image
           fluid
           src={Christmas}
           alt="group ofpeople wearing Christmas hats and singing outdoors"
         />
-      </Container>
+      </MainImageContainer>
       <Container>
         <Row>
           <Col
             xs={12}
             style={{
               textAlign: "center",
-              marginTop: "30px",
-              marginBotton: "20pxS",
+              marginTop: "20px",
+              marginBotton: "20px",
             }}
           >
             <h1>Wellbeing Music Club</h1>
@@ -68,7 +70,7 @@ function WellbeingMusicClub() {
               </li>
             </ul>
           </Col>
-          <Col xs={12} lg={5} style={{ padding: "0px 20px 40px" }}>
+          <Col xs={12} lg={5} className="stay_play_img">
             <Image
               fluid
               src={StayAndPlay}
@@ -77,15 +79,15 @@ function WellbeingMusicClub() {
           </Col>
         </Row>
         <hr />
-        <Row>
+        <Row className="special_needs_choir_row">
           <Col xs={12} lg={6}>
             <Image
               fluid
               src={SpecialNeedsChoir}
-              style={{ padding: "0px 20px 40px" }}
+              className="special_needs_img"
             />
           </Col>
-          <Col xs={12} lg={6} style={{ paddingTop: "30px" }}>
+          <Col xs={12} lg={6} className="special_needs_text">
             <p>
               Hans Christian Anderson said, “Where words fail, music speaks,”
               and this is never as obvious as when verbal communication is a

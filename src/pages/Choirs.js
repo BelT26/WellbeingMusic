@@ -2,12 +2,14 @@ import React from "react";
 import { Row, Col, Container, Image } from "react-bootstrap";
 import SeatedChoir from "../images/choir_seated.jpg";
 import ParkChoir from "../images/unison_choir2.jpg";
-import EveningChoir from "../images/choir_evening.jpg";
+import ChristmasChoir from "../images/christmas_choir.jpg";
+import MainImageContainer from "../components/MainImageContainer";
+import "./Choirs.css";
 
 function Choirs() {
   return (
     <>
-      <Container style={{ padding: "0px 70px" }}>
+      <MainImageContainer>
         <Row>
           <Col xs={12}>
             <Image
@@ -17,7 +19,7 @@ function Choirs() {
             />
           </Col>
         </Row>
-      </Container>
+      </MainImageContainer>
       <Container>
         <Row>
           <Col xs={12} style={{ textAlign: "center", marginTop: "20px" }}>
@@ -74,8 +76,15 @@ function Choirs() {
             <h3>Unison Choir</h3>
           </Col>
         </Row>
-        <Row style={{ marginTop: "20px" }}>
-          <Col>
+        <Row className="unison_row">
+          <Col xs={12} lg={5} className="unison_img">
+            <Image
+              fluid
+              src={ChristmasChoir}
+              alt="people singing christmas carols on a street during the evening"
+            />
+          </Col>
+          <Col xs={12} lg={7}>
             <p>
               Unison Choir is a fab, friendly pop choir! The repertoire of
               choice is a brilliant blend of old and new, contemporary and
@@ -106,15 +115,8 @@ function Choirs() {
             <h3>Missing People Choir</h3>
           </Col>
         </Row>
-        <Row style={{ marginTop: "20px" }}>
-          <Col xs={12} lg={5}>
-            <Image
-              fluid
-              src={EveningChoir}
-              alt="people singing christmas carols on a street during the evening"
-            />
-          </Col>
-          <Col xs={12} lg={7}>
+        <Row>
+          <Col xs={12}>
             <p>
               Nina is also choir director of the Missing People Choir – the
               choir for the national charity supporting families of people who
@@ -139,7 +141,7 @@ function Choirs() {
             <h3>Choirs and Workshops</h3>
           </Col>
         </Row>
-        <Row style={{ marginTop: "20px" }}>
+        <Row>
           <Col>
             <p>
               If you’d like to form a choir in your workplace or community or

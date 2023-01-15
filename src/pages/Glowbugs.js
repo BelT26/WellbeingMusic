@@ -6,7 +6,6 @@ import GlowBugsLogo from "../images/glowbug_logo.jpg";
 import StarWars from "../images/GB_star_wars.jpg";
 import GlowBug from "../images/glowbug.jpg";
 import GlowBaby from "../images/gb_baby.jpg";
-import GlowMakeOver from "../images/gb_makeover.jpg";
 import GlowParty from "../images/GB_party2.jpeg";
 import ReviewBackground from "../images/gb_review.PNG";
 

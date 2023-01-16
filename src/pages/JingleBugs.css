@@ -22,3 +22,14 @@
     padding-top: 20px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .jb_image {
+    padding: 10px 0;
+  }
+
+  .jb_image img {
+    width: 350px;
+    height: auto;
+  }
+}

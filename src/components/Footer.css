@@ -9,11 +9,6 @@
   font-size: 2rem;
 }
 
-.contact_link {
-  text-decoration: none;
-  color: white;
-}
-
 .social_icons {
   display: flex;
   justify-content: space-around;
@@ -21,4 +16,15 @@
 
 .footer_right {
   text-align: right;
+}
+
+.footer_right a {
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .footer_item {
+    text-align: center;
+    margin: 10px 0;
+  }
 }

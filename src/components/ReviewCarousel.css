@@ -10,12 +10,12 @@
 
 @media screen and (max-width: 780px) {
   .review_background {
-    height: 400px;
+    height: 450px;
   }
 }
 
 @media screen and (max-width: 520px) {
   .review_background {
-    height: 500px;
+    height: 550px;
   }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container, Image } from "react-bootstrap";
 import MainImageContainer from "../components/MainImageContainer";
-import Christmas from "../images/WMC_christmas.png";
+import Christmas from "../images/WMC_Christmas_Choir.png";
 import Hospital from "../images/WMC_hospital.jpg";
 import SpecialNeedsChoir from "../images/WMC_special_needs_choir.jpg";
 import StayAndPlay from "../images/WMC_stay_play.png";

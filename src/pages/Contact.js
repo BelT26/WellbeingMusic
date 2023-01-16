@@ -27,7 +27,7 @@ function Contact() {
           <p>or call / text 07956 256721</p>
           <hr></hr>
           <p>
-            We sell Jingle Bugs, Blow Bug parties and Wellbeing Music Tshirts as
+            We sell Jingle Bugs, Glow Bug parties and Wellbeing Music Tshirts as
             well as music for early years and gift sets!
           </p>
           <hr></hr>

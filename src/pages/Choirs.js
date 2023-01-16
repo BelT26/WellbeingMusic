@@ -4,6 +4,7 @@ import SeatedChoir from "../images/choir_seated.jpg";
 import ParkChoir from "../images/unison_choir2.jpg";
 import ChristmasChoir from "../images/christmas_choir.jpg";
 import MainImageContainer from "../components/MainImageContainer";
+import ContactLink from "../components/ContactLink";
 import "./Choirs.css";
 
 function Choirs() {
@@ -146,7 +147,14 @@ function Choirs() {
             <p>
               If you’d like to form a choir in your workplace or community or
               you’d like Wellbeing Music to deliver a choir workshop, get in
-              touch at info@wellbeingmusic.co.uk
+              touch at{" "}
+              <ContactLink
+                email="info@wellbeingmusic.co.uk"
+                subject="Website Enquiry"
+                color="teal"
+              >
+                info@wellbeingmusic.co.uk
+              </ContactLink>
             </p>
           </Col>
         </Row>

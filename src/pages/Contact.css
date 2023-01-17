@@ -1,0 +1,9 @@
+#gb_tshirts {
+  height: 500px;
+}
+
+@media screen and (max-width: 500px) {
+  #gb_tshirts {
+    height: 400px;
+  }
+}

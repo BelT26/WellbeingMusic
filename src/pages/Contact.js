@@ -1,8 +1,9 @@
 import React from "react";
-import { Row, Col, Container, Image } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import { SocialIcon } from "react-social-icons";
 import GlowBugTShirts from "../images/glowbugs_tshirts.jpg";
 import ContactLink from "../components/ContactLink";
+import "./Glowbugs.css";
 
 function Contact() {
   return (
@@ -57,8 +58,8 @@ function Contact() {
         <Col xs={12} lg={6} style={{ padding: "30px" }}>
           <img
             src={GlowBugTShirts}
+            id="gb_tshirts"
             alt="two young children wearing Glow Bug TShirts"
-            height={500}
           />
         </Col>
       </Row>

@@ -3,6 +3,7 @@ import ReviewsCarousel from "../components/ReviewCarousel";
 import JingleBugsLogo from "../images/jinglebugs_logo1.jpg";
 import BabyParachute from "../images/jb_baby_parachute.jpg";
 import BramblyHouse from "../images/jb_brambly_house.png";
+import BramblyHouseMobile from "../images/jb_brambly_mobile.png";
 import Bubbles from "../images/jb_bubbles.jpg";
 import SeaCloth from "../images/jb_sea_cloth.jpg";
 import SeaClothMobile from "../images/JB_sea_cloth_mobile.jpg";
@@ -44,13 +45,13 @@ function JingleBugs() {
           fluid
           id="sea_cloth"
           src={SeaCloth}
-          alt="group of children waving colourful scarves in a garden with Nina playing the guitar in the background"
+          alt="group of toddlers sat with their parents on the floor around a large colourful cloth depicting sea creatures and boats"
         />
         <Image
           fluid
           id="sea_cloth_mobile"
           src={SeaClothMobile}
-          alt="group of children waving colourful scarves in a garden with Nina playing the guitar in the background"
+          alt="group of toddlers sat with their parents on the floor around a large colourful cloth depicting sea creatures and boats"
         />
       </MainImageContainer>
 
@@ -187,7 +188,18 @@ function JingleBugs() {
             </p>
           </Col>
           <Col xs={12} lg={6} style={{ padding: "20px" }}>
-            <Image fluid src={BramblyHouse} />
+            <Image
+              fluid
+              src={BramblyHouse}
+              id="brambly"
+              alt="group of children in a playground waving colourful scarves whilst Nina plays guitar in the background"
+            />
+            <Image
+              fluid
+              src={BramblyHouseMobile}
+              id="brambly_mobile"
+              alt="group of children in a playground waving colourful scarves whilst Nina plays guitar in the background"
+            />
           </Col>
         </Row>
         <Row>

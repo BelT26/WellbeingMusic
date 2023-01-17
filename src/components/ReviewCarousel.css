@@ -19,3 +19,9 @@
     height: 550px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .review_background {
+    height: 640px;
+  }
+}

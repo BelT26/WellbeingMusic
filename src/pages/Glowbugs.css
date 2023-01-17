@@ -1,6 +1,11 @@
-.glowbugs_main_image {
+#star_wars {
   width: 100vw;
   height: auto;
+  margin: 0;
+}
+
+#star_wars_mobile {
+  display: none;
 }
 
 .gb_logo_col {
@@ -29,6 +34,10 @@
   padding: 0px 30px 60px;
 }
 
+#glow_baby {
+  height: 300px;
+}
+
 @media screen and (max-width: 992px) {
   .gb_intro {
     padding-top: 0;
@@ -54,5 +63,22 @@
 
   .gb_logo_col {
     padding: 0px 0px 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #star_wars {
+    display: none;
+  }
+
+  #star_wars_mobile {
+    display: block;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+  }
+
+  #glow_baby {
+    height: 240px;
   }
 }

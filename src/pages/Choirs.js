@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col, Container, Image } from "react-bootstrap";
 import SeatedChoir from "../images/choir_seated.jpg";
 import ParkChoir from "../images/unison_choir2.jpg";
+import ParkChoirMobile from "../images/unison_choir_mobile.jpg";
 import ChristmasChoir from "../images/christmas_choir.jpg";
 import MainImageContainer from "../components/MainImageContainer";
 import ContactLink from "../components/ContactLink";
@@ -15,7 +16,14 @@ function Choirs() {
           <Col xs={12}>
             <Image
               fluid
+              id="park_choir"
               src={ParkChoir}
+              alt="women wearing Unison Choir T shirts singing in a park"
+            />
+            <Image
+              fluid
+              id="park_choir_mobile"
+              src={ParkChoirMobile}
               alt="women wearing Unison Choir T shirts singing in a park"
             />
           </Col>

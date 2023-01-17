@@ -4,6 +4,7 @@ import "./Glowbugs.css";
 import ReviewsCarousel from "../components/ReviewCarousel";
 import GlowBugsLogo from "../images/glowbug_logo.jpg";
 import StarWars from "../images/GB_star_wars.jpg";
+import StarWarsMobile from "../images/GB_star_wars_mobile.jpg";
 import GlowBug from "../images/glowbug.jpg";
 import GlowBaby from "../images/gb_baby.jpg";
 import GlowParty from "../images/GB_party2.jpeg";
@@ -34,6 +35,14 @@ function Glowbugs() {
         <Image
           fluid
           src={StarWars}
+          className="glowbugs_main_image"
+          id="star_wars"
+          alt="children dressed in star wars costumes and waving glow sticks"
+        />
+        <Image
+          fluid
+          src={StarWarsMobile}
+          id="star_wars_mobile"
           className="glowbugs_main_image"
           alt="children dressed in star wars costumes and waving glow sticks"
         />
@@ -126,7 +135,7 @@ function Glowbugs() {
           <Col xs={12} lg={4} style={{ textAlign: "center" }}>
             <img
               src={GlowBaby}
-              height={300}
+              id="glow_baby"
               alt="baby wearing glow in the dark make up"
             />
           </Col>

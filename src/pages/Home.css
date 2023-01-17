@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+#home_mobile {
+  display: none;
+}
+
 .logo_row {
   display: flex;
   justify-content: center;
@@ -13,4 +17,17 @@
   display: flex;
   align-items: center;
   padding: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  #home_main {
+    display: none;
+  }
+
+  #home_mobile {
+    display: block;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+  }
 }

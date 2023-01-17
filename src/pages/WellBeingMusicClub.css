@@ -1,3 +1,13 @@
+#WMC_main {
+  width: 100vw;
+  height: auto;
+  margin: 0;
+}
+
+#WMC_mobile {
+  display: none;
+}
+
 .stay_play_img {
   padding: 0px 20px 40px;
 }
@@ -32,5 +42,18 @@
 
   .special_needs_img {
     padding: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #WMC_main {
+    display: none;
+  }
+
+  #WMC_mobile {
+    display: block;
+    width: 100vw;
+    height: auto;
+    margin: 0;
   }
 }

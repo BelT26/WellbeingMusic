@@ -1,3 +1,13 @@
+#park_choir {
+  width: 100vw;
+  height: auto;
+  margin: 0;
+}
+
+#park_choir_mobile {
+  display: none;
+}
+
 .unison_img {
   display: flex;
   align-items: center;
@@ -12,5 +22,18 @@
   .unison_row {
     display: flex;
     flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #park_choir {
+    display: none;
+  }
+
+  #park_choir_mobile {
+    display: block;
+    width: 100vw;
+    height: auto;
+    margin: 0;
   }
 }

@@ -7,3 +7,9 @@
     padding: 20px 0;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .main_image_container {
+    padding: 0;
+  }
+}

@@ -2,6 +2,7 @@ import MainImageContainer from "../components/MainImageContainer";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import NinaImage from "../images/nina_bw.jpg";
 import HomeMainImage from "../images/home_landscape.png";
+import HomeMainMobile from "../images/home_main_mobile.png";
 import "./Home.css";
 import LogoList from "../components/LogoList";
 
@@ -13,6 +14,12 @@ function Home() {
           fluid
           id="home_main"
           src={HomeMainImage}
+          alt="group of young girls playing a clapping game to music"
+        />
+        <Image
+          fluid
+          id="home_mobile"
+          src={HomeMainMobile}
           alt="group of young girls playing a clapping game to music"
         />
       </MainImageContainer>

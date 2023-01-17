@@ -5,6 +5,7 @@ import BabyParachute from "../images/jb_baby_parachute.jpg";
 import BramblyHouse from "../images/jb_brambly_house.png";
 import Bubbles from "../images/jb_bubbles.jpg";
 import SeaCloth from "../images/jb_sea_cloth.jpg";
+import SeaClothMobile from "../images/JB_sea_cloth_mobile.jpg";
 import IndoorParty from "../images/jb_indoor_party.jpg";
 import OutdoorParty from "../images/jinglebugs_outdoor_party.png";
 import ReviewBackGround from "../images/jb_review.PNG";
@@ -13,24 +14,6 @@ import ContactLink from "../components/ContactLink";
 import "./JingleBugs.css";
 
 function JingleBugs() {
-  const CarouselImages = [
-    {
-      imgSrc: BramblyHouse,
-      alt: "group of children waving colourful scarves in a garden with Nina playing the guitar in the background",
-      id: "BHIM",
-    },
-    {
-      imgSrc: SeaCloth,
-      alt: "group of toddlers and parents sat around a large cloth containing images of the sea",
-      id: "SCIM",
-    },
-    {
-      imgSrc: BabyParachute,
-      alt: "babies and their mothers sat on the floor under a large colourful parachute",
-      id: "BPIM",
-    },
-  ];
-
   const JingleBugsReviews = [
     {
       text: "I have explored many different mother and baby/toddler sessions. It was only Nina’s sessions which I felt brought the magical combination of musicality, developmental awareness, creativity and fun which the boys (and I) so enjoyed. My sons and the other children got so much out of her sessions - both in terms of their musical development, but also in their confidence, ability to listen, pay attention and interact with others.",
@@ -59,7 +42,14 @@ function JingleBugs() {
       <MainImageContainer>
         <Image
           fluid
+          id="sea_cloth"
           src={SeaCloth}
+          alt="group of children waving colourful scarves in a garden with Nina playing the guitar in the background"
+        />
+        <Image
+          fluid
+          id="sea_cloth_mobile"
+          src={SeaClothMobile}
           alt="group of children waving colourful scarves in a garden with Nina playing the guitar in the background"
         />
       </MainImageContainer>

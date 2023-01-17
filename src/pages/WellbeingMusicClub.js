@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col, Container, Image } from "react-bootstrap";
 import MainImageContainer from "../components/MainImageContainer";
 import Christmas from "../images/WMC_Christmas_Choir.png";
+import ChristmasMobile from "../images/WMC_christmas_mobile.png";
 import Hospital from "../images/WMC_hospital.jpg";
 import SpecialNeedsChoir from "../images/WMC_special_needs_choir.jpg";
 import StayAndPlay from "../images/WMC_stay_play.png";
@@ -13,7 +14,14 @@ function WellbeingMusicClub() {
       <MainImageContainer>
         <Image
           fluid
+          id="WMC_main"
           src={Christmas}
+          alt="group ofpeople wearing Christmas hats and singing outdoors"
+        />
+        <Image
+          fluid
+          id="WMC_mobile"
+          src={ChristmasMobile}
           alt="group ofpeople wearing Christmas hats and singing outdoors"
         />
       </MainImageContainer>

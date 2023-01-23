@@ -3,7 +3,7 @@ import { Row, Col, Container } from "react-bootstrap";
 import { SocialIcon } from "react-social-icons";
 import GlowBugTShirts from "../images/glowbugs_tshirts.jpg";
 import ContactLink from "../components/ContactLink";
-import "./Glowbugs.css";
+import "./Contact.css";
 
 function Contact() {
   return (

@@ -1,23 +1,26 @@
-import WellBeingLogo from "../images/wellbeing_logo.jpg";
+import WellBeingLogo from "../images/wm_logo.png";
 import { Navbar, Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import JingleBug from "../images/jinglebug.jpg";
-import GlowBug from "../images/glowbug.jpg";
+import JingleBug from "../images/jinglebug.png";
+import GlowBug from "../images/glowbug.png";
 
 function Header() {
   return (
     <Navbar
-      bg="light"
       variant="light"
       expand="lg"
-      style={{ marginBottom: "30px" }}
+      style={{
+        marginBottom: "30px",
+        backgroundColor: "hsl(230, 45%, 91%)",
+        border: "none",
+      }}
     >
       <LinkContainer to="/">
         <Navbar.Brand>
           <img
             src={WellBeingLogo}
-            width="150"
-            height="90"
+            width="170"
+            height="100"
             className="d-inline-block align-top"
             alt="Wellbeing Music logo"
           />
@@ -32,13 +35,13 @@ function Header() {
           </LinkContainer>
           <LinkContainer to="/jinglebugs">
             <Nav.Link>
-              <img src={JingleBug} height={20} />
+              <img src={JingleBug} height={20} alt="jinglebug logo" />
               Jinglebugs
             </Nav.Link>
           </LinkContainer>
           <LinkContainer to="/glowbugs">
             <Nav.Link>
-              <img src={GlowBug} height={20} />
+              <img src={GlowBug} height={20} alt="glowbug logo" />
               Glowbug Parties
             </Nav.Link>
           </LinkContainer>

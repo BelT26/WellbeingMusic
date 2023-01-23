@@ -13,6 +13,7 @@ import NHS from "../images/logos/nhs_sash.png";
 import ReigateCouncil from "../images/logos/reigate_council.png";
 import RenewedHope from "../images/logos/renewed_hope.png";
 import SurreyCouncil from "../images/logos/surrey_council.png";
+import WoodHatch from "../images/logos/woodhatch.png";
 import "../pages/Home.css";
 
 const companyLogos = [
@@ -31,6 +32,11 @@ const companyLogos = [
   { description: "Reigate Council Logo", image: ReigateCouncil, key: "RC" },
   { description: "Renewed Hope Logo", image: RenewedHope, key: "RH" },
   { description: "Surrey Council Logo", image: SurreyCouncil, key: "SC" },
+  {
+    description: "Woodhatch Community Centre logo",
+    image: WoodHatch,
+    key: "WH",
+  },
 ];
 
 function LogoList() {

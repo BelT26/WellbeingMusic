@@ -1,6 +1,6 @@
 .footer_container {
-  color: white;
-  background-color: black;
+  color: rgb(51, 50, 51);
+  background-color: #edeff8;
   padding: 25px;
   margin-top: 30px;
 }
@@ -19,7 +19,7 @@
 }
 
 .footer_right a {
-  color: white;
+  color: dimgray;
 }
 
 @media screen and (max-width: 992px) {

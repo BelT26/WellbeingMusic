@@ -11,6 +11,7 @@ function Header() {
       expand="lg"
       style={{
         paddingBottom: "10px",
+        paddingLeft: "10px",
         backgroundImage:
           "linear-gradient(hsl(230, 45%, 85%), hsl(230, 45%, 99%))",
 

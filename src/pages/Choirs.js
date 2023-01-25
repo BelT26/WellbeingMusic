@@ -114,8 +114,16 @@ function Choirs() {
               and raised over £3000 for our chosen charities. Keep an eye on our
               Facebook page for updates on all things Unison,
               www.facebook.com/unisonpopchoir You can try us for free, so why
-              wait any longer? Contact info@wellbeingmusic.co.uk for more
-              information.
+              wait any longer? Contact{" "}
+              <ContactLink
+                email="info@wellbeingmusic.co.uk"
+                subject="Website Enquiry"
+                color="mediumslateblue"
+                hover_color="cornflowerblue"
+              >
+                info@wellbeingmusic.co.uk
+              </ContactLink>{" "}
+              for more information.
             </p>
           </Col>
         </Row>
@@ -141,7 +149,16 @@ function Choirs() {
             <p>
               Rehearsals are in central London, every 1st Saturday of the month
               from 2-6pm. If you’d like to join, support or donate to the choir
-              contact choir@missingpeople.org.uk for more information.
+              contact{" "}
+              <ContactLink
+                email="choir@missingpeople.org.uk"
+                subject="Website Enquiry"
+                color="mediumslateblue"
+                hover_color="cornflowerblue"
+              >
+                choir@missingpeople.org.uk
+              </ContactLink>{" "}
+              for more information.
             </p>
           </Col>
         </Row>
@@ -159,7 +176,8 @@ function Choirs() {
               <ContactLink
                 email="info@wellbeingmusic.co.uk"
                 subject="Website Enquiry"
-                color="teal"
+                color="mediumslateblue"
+                hover_color="cornflowerblue"
               >
                 info@wellbeingmusic.co.uk
               </ContactLink>

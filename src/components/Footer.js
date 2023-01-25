@@ -12,7 +12,8 @@ function Footer() {
           <ContactLink
             email="info@wellbeingmusic.co.uk"
             subject="Website Enquiry"
-            color="dimgray"
+            color="darkslategrey"
+            hover_color="cornflowerblue"
           >
             info@wellbeingmusic.co.uk
           </ContactLink>

@@ -10,8 +10,10 @@ function Header() {
       variant="light"
       expand="lg"
       style={{
-        marginBottom: "30px",
-        backgroundColor: "hsl(230, 45%, 91%)",
+        paddingBottom: "10px",
+        backgroundImage:
+          "linear-gradient(hsl(230, 45%, 85%), hsl(230, 45%, 99%))",
+
         border: "none",
       }}
     >

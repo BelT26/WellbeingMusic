@@ -1,8 +1,8 @@
 .footer_container {
   color: rgb(51, 50, 51);
-  background-color: #edeff8;
-  padding: 25px;
-  margin-top: 30px;
+  background-image: linear-gradient(hsl(230, 45%, 99%), hsl(230, 45%, 85%));
+  padding: 35px 25px 25px;
+  margin-top: 20px;
 }
 
 .footer_container i {
@@ -19,7 +19,13 @@
 }
 
 .footer_right a {
-  color: dimgray;
+  color: darkslategrey;
+  text-decoration: none;
+}
+
+.footer_right a:hover,
+.footer_right a:active {
+  color: cornflowerblue;
 }
 
 @media screen and (max-width: 992px) {

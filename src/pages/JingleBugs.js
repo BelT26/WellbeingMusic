@@ -176,7 +176,8 @@ function JingleBugs() {
               <ContactLink
                 email="info@wellbeingmusic.co.uk"
                 subject="Website Enquiry"
-                color="teal"
+                color="mediumslateblue"
+                hover_color="cornflowerblue"
               >
                 info@wellbeingmusic.co.uk
               </ContactLink>
@@ -210,7 +211,8 @@ function JingleBugs() {
               <ContactLink
                 email="info@wellbeingmusic.co.uk"
                 subject="Website Enquiry"
-                color="teal"
+                color="mediumslateblue"
+                hover_color="cornflowerblue"
               >
                 info@wellbeingmusic.co.uk
               </ContactLink>{" "}

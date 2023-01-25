@@ -20,7 +20,8 @@ function Contact() {
             <ContactLink
               email="info@wellbeingmusic.co.uk"
               subject="Website Enquiry"
-              color="teal"
+              color="mediumslateblue"
+              hover_color="cornflowerblue"
             >
               info@wellbeingmusic.co.uk
             </ContactLink>
@@ -33,8 +34,8 @@ function Contact() {
           </p>
           <hr></hr>
           <p>
-            You can also follow Wellbeing Music on Social Media by clicking the
-            icons below.
+            You can follow Wellbeing Music on Social Media by clicking the icons
+            below.
           </p>
           <Row style={{ margin: "20px" }}>
             <Col xs={12} style={{ textAlign: "center" }}>
@@ -61,6 +62,17 @@ function Contact() {
             id="gb_tshirts"
             alt="two young children wearing Glow Bug TShirts"
           />
+        </Col>
+      </Row>
+      <hr />
+      <Row style={{ margin: "30px" }}>
+        <Col xs={12} style={{ textAlign: "center" }}>
+          <em>
+            A special thank you to Jenny Frear, Ruth Harvey, Kate Hutchings,
+            Nick Rogers, Magda Trevino, Clare Waghorn and Rin Galin for
+            providing photographs for the site and to TerraCity One for the
+            videos
+          </em>
         </Col>
       </Row>
     </Container>

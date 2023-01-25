@@ -1,15 +1,33 @@
-import React from "react";
-
-import "./ContactLink.css";
+import { useState } from "react";
 
 const ContactLink = (props) => {
+  const [isHover, setIsHover] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHover(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHover(false);
+  };
+
   return (
-    <a
-      style={{ textDecoration: "none", color: props.color }}
-      href={`mailto:${props.email}?subject=${props.subject}`}
+    <div
+      style={{ display: "inline-block" }}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
-      {props.children}
-    </a>
+      <a
+        className="contact_link"
+        style={{
+          textDecoration: "none",
+          color: isHover ? props.hover_color : props.color,
+        }}
+        href={`mailto:${props.email}?subject=${props.subject}`}
+      >
+        {props.children}
+      </a>
+    </div>
   );
 };
 

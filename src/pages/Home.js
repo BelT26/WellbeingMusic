@@ -83,26 +83,18 @@ function Home() {
                 </li>
                 <li>
                   Choirs - Wellbeing Music also offers workplace choirs and
-                  singing workshops.
+                  singing workshops. I am the choir director of the Missing
+                  People Choir for the national charity and East Surrey-based
+                  pop choir, Unison.
+                </li>
+                <li>
+                  The Wellbeing Music Club - provides a variety of health-giving
+                  and educational music experiences for all ages and includes
+                  sessions and workshops in care homes, hospitals and schools.
+                  We also support community events with music."
                 </li>
               </em>
             </ul>
-            <p>
-              <em>
-                I am the choir director of the Missing People Choir for the
-                national charity, East Surrey-based pop choir, Unison and
-                co-direct the SASH choir for staff and volunteers at East Surrey
-                Hospital.
-              </em>
-            </p>
-            <p>
-              <em>
-                The Wellbeing Music Club - provides a variety of health-giving
-                and educational music experiences for all ages and includes
-                sessions and workshops in care homes, hospitals and schools. We
-                also support community events with music."
-              </em>
-            </p>
           </Col>
         </Row>
       </Container>

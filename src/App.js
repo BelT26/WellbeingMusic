@@ -20,7 +20,7 @@ function App() {
           <Route path="/parties" element={<Glowbugs />} />
           <Route path="/jinglebugs" element={<JingleBugs />} />
           <Route path="/wellbeingmusicclub" element={<WellbeingMusicClub />} />
-          <Route path="/choirs" element={<Choirs />} />
+          <Route path="/unison-choir" element={<Choirs />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>

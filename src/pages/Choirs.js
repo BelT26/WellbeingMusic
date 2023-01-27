@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Container, Image } from "react-bootstrap";
+import SiteLink from "../components/SiteLink";
 import SeatedChoir from "../images/choir_seated.jpg";
 import ParkChoir from "../images/unison_choir2.jpg";
 import ParkChoirMobile from "../images/unison_choir_mobile.jpg";
@@ -123,6 +124,15 @@ function Choirs() {
               >
                 info@wellbeingmusic.co.uk
               </ContactLink>{" "}
+              or follow us on{" "}
+              <SiteLink
+                address="http://www.facebook.com/unisonpopchoir"
+                color="mediumslateblue"
+                hover_color="cornflowerblue"
+              >
+                {" "}
+                Facebook{" "}
+              </SiteLink>{" "}
               for more information.
             </p>
           </Col>

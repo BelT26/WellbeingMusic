@@ -42,7 +42,7 @@ function Header() {
               Jinglebugs
             </Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/glowbugs">
+          <LinkContainer to="/glowbugparties">
             <Nav.Link>
               <img src={GlowBug} height={20} alt="glowbug logo" />
               Glowbug Parties

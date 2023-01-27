@@ -106,7 +106,11 @@ function Glowbugs() {
             </p>
             <Row>
               <Col className="gb_logo_col">
-                <img src={GlowBug} height={45} />
+                <img
+                  src={GlowBug}
+                  height={45}
+                  alt="orange and green glowbug with a smiley face"
+                />
               </Col>
             </Row>
           </Col>

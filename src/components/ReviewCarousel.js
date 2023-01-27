@@ -9,6 +9,7 @@ function ReviewsCarousel({ reviews, background }) {
           <img
             className="d-block w-100 review_background"
             src={background}
+            alt="coloured background"
           ></img>
           <Carousel.Caption>
             <p>

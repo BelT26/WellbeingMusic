@@ -2,6 +2,11 @@
   height: 300px;
   margin: 20px;
 }
+
+.jb_image {
+  text-align: center;
+}
+
 #sea_cloth,
 #brambly {
   width: 100vw;

@@ -224,7 +224,7 @@ function JingleBugs() {
           reviews={JingleBugsReviews}
           background={ReviewBackGround}
         />
-        <Row style={{ margin: "20px 0px" }}>
+        <Row style={{ margin: "20px 0px" }} className="jb_image_row">
           <Col xs={12} xl={3} className="jb_image">
             <img
               src={Bubbles}

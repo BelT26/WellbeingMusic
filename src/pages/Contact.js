@@ -69,8 +69,8 @@ function Contact() {
         <Col xs={12} style={{ textAlign: "center" }}>
           <em>
             A special thank you to Jenny Frear, Ruth Harvey, Kate Hutchings,
-            Nick Rogers, Magda Trevino, Clare Waghorn and Rin Galin for
-            providing photographs for the site and to TerraCity One for the
+            Nick Rogers, Magda Trevino, and Clare Waghorn for providing
+            photographs for the site and to Galina Rin at TerraCity One for the
             videos
           </em>
         </Col>
